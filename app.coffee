@@ -64,7 +64,7 @@ class App
     url = Vk.makeAuthorizeUrl() # call a class method
     # turns out we have not access to tabs api from content script :-(
     #chrome.tabs.create url: url, selected: yes
-    #open url
+    open url
     console.log 'open new tab..'
 
 
